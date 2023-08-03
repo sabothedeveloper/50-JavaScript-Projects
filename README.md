@@ -3,7 +3,6 @@
 This repository contains the code that I've written when taking # 50 Projects in 50 Days - HTML/CSS and JavaScript course.
 
 Course Link: [https://www.udemy.com/course/50-projects-50-days](https://www.udemy.com/course/50-projects-50-days)
-Course Info Website: [https://50projects50days.com](https://50projects50days.com)
 
 | #   | Project                                 | Live Demo                                                                      |
 | --- | --------------------------------------- | ------------------------------------------------------------------------------ |
