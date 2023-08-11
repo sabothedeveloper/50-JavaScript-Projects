@@ -5,16 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="styles.css" />
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
     <script defer src="script.js"></script>
   </head>
+  <div class="container">
+    <div class="circle-container">
+      <div class="circle">
+        <button id="close">
+          <i class="fas fa-times">
+          </i>
+        </button>
+        <button id="open">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+    <div class="content">
+      <h1>Amazing Article</h1>
+      <small>Szabolcs Nagy</small>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugit ea eum quas assumenda. Id minima ut, laudantium nemo eos animi sapiente fugiat laboriosam distinctio minus reprehenderit impedit. Quod dolor dolore perferendis minus deserunt at! Et nulla illo possimus iusto in perferendis quas adipisci, magnam repellendus enim beatae, ex, laboriosam dolores exercitationem quae. Fugiat, officia accusamus. Quasi facere illum odio voluptate expedita quidem rem ipsa modi consequatur amet eius, id maiores reiciendis labore distinctio commodi magni error alias eligendi deleniti totam aliquam architecto minus! Facere omnis consequatur earum porro magnam tempora similique corporis suscipit minus eos. Reiciendis commodi facere provident.</p>
+      <h3>My Panda</h3>
+      <img src="https://images.unsplash.com/photo-1597953601374-1ff2d5640c85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="giant panda">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum doloremque, officiis quisquam nisi in incidunt necessitatibus accusantium vel! Autem, sequi fugiat. Necessitatibus facilis debitis consequuntur ipsa nam numquam aliquid nulla, nostrum repellat. Perferendis reprehenderit minus deleniti repudiandae voluptate numquam quos necessitatibus, nam voluptatum veniam quibusdam, ullam modi! Reprehenderit distinctio eveniet necessitatibus praesentium numquam suscipit eligendi, sunt non hic doloribus at deserunt quasi possimus minus, libero aperiam illum ab molestias perferendis recusandae iste et blanditiis earum.</p>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li><i class="fas fa-home"></i>Home</li>
+      <li><i class="fas fa-user-alt"></i>About</li>
+      <li><i class="fas fa-envelope"></i>Contact</li>
+    </ul>
+  </nav>
   <body>
-    <h1>Project Starter</h1>
-  </body>
 </html>
