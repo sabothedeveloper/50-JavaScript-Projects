@@ -1,6 +1,6 @@
 # 50 Projects in 50 Days - HTML/CSS and JavaScript
 
-This repository contains the code that I've written when taking # 50 Projects in 50 Days - HTML/CSS and JavaScript course.
+This repository contains the code for 50 mini JavaScript projects.
 
 Course Link: [https://www.udemy.com/course/50-projects-50-days](https://www.udemy.com/course/50-projects-50-days)
 
